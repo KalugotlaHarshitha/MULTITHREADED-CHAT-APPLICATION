@@ -14,7 +14,7 @@ public class ChatServer {
 
             String clientMessage;
             while (true) {
-                clientMessage = reader.readLine(); // Read message from client
+                clientMessage = reader.readLine(); 
                 if (clientMessage == null || clientMessage.equalsIgnoreCase("exit")) {
                     System.out.println("Client disconnected. Closing server...");
                     break;
@@ -22,7 +22,7 @@ public class ChatServer {
 
                 System.out.println("Received from client: " + clientMessage);
 
-                // Custom response logic
+                
                 String serverResponse;
                 if(clientMessage.equalsIgnoreCase("hello")){
                     serverResponse="Hii, how can I help you";
@@ -34,10 +34,10 @@ public class ChatServer {
                     serverResponse="Nothing,how about you";
                 }
                 else {
-                    serverResponse = "Server: " + clientMessage; // Echo back
+                    serverResponse = "Server: " + clientMessage; 
                 }
 
-                writer.println(serverResponse); // Send message back to client
+                writer.println(serverResponse); 
                 System.out.println("Sent to client: " + serverResponse);
             }
 
