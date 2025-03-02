@@ -1,1 +1,13 @@
 # MULTITHREADED-CHAT-APPLICATION
+
+*COMPANY* : CODETECH IT SOLUTIONS
+
+*NAME* : K.Harshitha
+
+*INTERN ID* :CT08REL
+
+*DOMAIN* :Java Programming
+
+*DURATION* : 4weeks
+
+*MENTOR* : Neela Santhosh Kumar
